@@ -1,0 +1,60 @@
+.logo {
+    background-color:#020225
+}
+.menù{
+    background-color: #050547;
+    padding: 9px;
+}
+.testo-bianco{ color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.arancione{
+    background-color: rgb(236, 74, 16);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+    color: white;
+}
+.bg{ text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+     
+}
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.image-container {
+    display: flex;
+    background-color: white;
+    margin: 20px;
+}
+
+.image-container img {
+    width: 290px; 
+    height: auto; 
+    margin-right: 50px; 
+}
+
+.marshall{
+    margin: 20px;
+    border: 20px;
+}
+
+.footer-upper{ background-color: #050547;
+    color: white;
+    border: none;
+    padding: 20px;
+}
+
+.footer-lower{ background-color: #020225;
+border:none;
+padding: 20px;
+}
