@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input id="testo" type='text' >
+    <button id="salva">Crea</button>
+    <ul id="lista"></ul>
+    
+   
+<script src="./js/exmercoledi.js">
+const salvabottone=document.querySelector('#salva')  
+salvabottone.addEventListener('click', function(){
+
+
+    const lista =document.querySelector('#lista')
+    const testo =document.querySelector('#testo')
+    let html=`<li>${input.value}<button on click="elimina task(this)">Elimina</button></li>`
+    lista.innerHTML +=html 
+}
+)
+
+function eliminatask(elemento){
+    elemento.parentElement.remove() 
+}
+
+</script>
+</body>
+</html>
